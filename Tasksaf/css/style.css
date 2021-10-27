@@ -1,0 +1,69 @@
+#medical{
+   
+}
+.img{
+ position: relative;
+}
+img{
+   width: 100%;
+   height: 100%;
+}
+.button{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+.button:hover .scale{
+   animation: ripple 5s ease-in-out infinite;
+  transition: 1s transform ease;
+}
+i{
+   font-size: 30px;
+   width: 90px;
+   height: 90px;
+   text-align: center;
+   padding-top: 30px;
+   padding-left: 2px;
+   border-radius: 50%;
+   background: linear-gradient(to right,#e8931e,#e7601e);
+   color: white;
+   
+}
+.scale1{
+   position: absolute;
+   background-color: aqua;
+   width: 110px;
+   height: 110px;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+.scale2{
+   position: absolute;
+   background-color: black;
+   width: 130px;
+   height: 130px;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+.scale3{
+   position: absolute;
+   background-color: tomato;
+   width: 150px;
+   height: 150px;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   transform: scale(0,0)
+}
+.scale3{
+   position: absolute;
+   background-color: tomato;
+   width: 150px;
+   height: 150px;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
